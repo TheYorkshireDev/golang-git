@@ -19,7 +19,6 @@ before_script:
   - export GITHUB_URL=https://TheYorkshireDev:${GITHUB_TOKEN}@github.com/TheYorkshireDev/golang-git.git
   - export RELEASE_URL=https://registry.hub.docker.com/u/theyorkshiredev/golang-git/trigger/$DOCKERHUB_TOKEN/
 
-
 # Group Docker login commands
 .log_into_docker : &log_into_docker |
   docker info
