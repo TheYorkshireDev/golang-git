@@ -1,6 +1,6 @@
 # Golang Git Container
 
-A custom container with golang and git v2.13.5 installed. Ideal for building golang projects that require pulling in dependencies.
+A custom container with golang 1.10.0 and git v2.15.0 installed on Alpine 3.7. Ideal for building golang projects that require pulling in dependencies.
 
 ## Build & Release Status
 
